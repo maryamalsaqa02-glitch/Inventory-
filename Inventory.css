@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{font-family:Inter,Arial,sans-serif;color:#101318;background:#e8edf7;font-synthesis:none;text-rendering:optimizeLegibility;--navy:#24365f;--ink:#34496f;--line:#d2ddef;--muted:#91a4cb}*{box-sizing:border-box}body{margin:0;min-width:360px;min-height:100vh;background:linear-gradient(112deg,#d8e9fb 0%,#e7eaf5 56%,#f2f2f8 100%)}button,input{font:inherit}.sidebar{position:fixed;inset:0 auto 0 0;width:187px;background:#1d2f4b;color:#c5ccda;display:flex;flex-direction:column;z-index:2}.brand{height:104px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#f5f7fc;text-decoration:none;font-size:12px;font-weight:700}.brand b{color:#879abd}.brand svg{width:27px;height:27px;fill:none;stroke:#7897df;stroke-width:2}.sidebar nav{padding:8px 13px}.nav-label{margin:0 12px 13px;color:#8290a8;text-transform:uppercase;font-size:9px}.nav-item{height:34px;padding:0 11px;display:flex;align-items:center;gap:11px;margin:2px 0;border-radius:8px;color:#c4ccdb;text-decoration:none;font-size:11px}.nav-item svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.nav-item.active{background:#2b3e5e}.nav-count{margin-left:auto;color:#ec5656;font-size:10px}.planning-label{margin-top:20px}.account{margin-top:auto;height:61px;border-top:1px solid #52627a;padding:0 10px;display:flex;align-items:center;gap:8px;overflow:hidden}.avatar{width:36px;height:36px;display:grid;place-items:center;flex:none;background:#536fbd;color:#fff;border-radius:50%;font-size:12px;font-weight:700}.account-copy{min-width:0;display:flex;flex-direction:column;gap:2px}.account-copy strong{max-width:91px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f3f5fb;font-size:11px}.account-copy small{color:#9cabc5;font-size:10px}.people{position:relative;margin-left:auto;font-size:20px;color:#e1e8f3}.people i{position:absolute;right:-4px;top:-4px;width:14px;height:14px;border-radius:50%;background:#31b78b;color:#fff;text-align:center;font-style:normal;font-size:9px;line-height:14px}.main-content{margin-left:187px;padding:14px 22px 24px 25px;max-width:1440px;min-height:100vh}.topbar{min-height:61px;display:flex;justify-content:space-between;align-items:flex-start;gap:20px}.heading h1{font-size:29px;line-height:1.1;letter-spacing:-1px;margin:0;font-weight:700;color:#080a0e}.heading p{margin:3px 0 0;color:#48649d;font-size:14px}.toolbar{display:flex;align-items:center;gap:12px;padding-top:8px}.search{height:32px;width:min(275px,24vw);display:flex;align-items:center;gap:9px;border-radius:24px;background:#fbfcff;padding:0 14px;color:#8793a7}.search svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}.search input{border:0;outline:0;width:100%;min-width:0;background:transparent;font-size:9px;color:#334}.search input::placeholder{color:#8992a2}.language-switch{display:flex;align-items:center;padding:3px;background:#f5f6fb;border-radius:24px}.language-switch button{border:0;padding:7px 12px;border-radius:20px;background:transparent;color:#212a3a;font-size:10px;white-space:nowrap}.language-switch button.selected{background:#24365f;color:white}.icon-button{width:35px;height:35px;border:0;border-radius:50%;display:grid;place-items:center;background:#f8f9fd;color:#263954}.icon-button svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}.primary-button{height:36px;padding:0 17px;border:0;border-radius:8px;background:#24365f;color:#fff;font-weight:600;font-size:14px;white-space:nowrap;cursor:pointer}.filters{display:inline-flex;align-items:center;margin-top:19px;padding:4px;border:1px solid #cad7eb;border-radius:30px;background:#f7f9fd}.filter{min-height:33px;padding:0 18px;border:0;border-radius:23px;background:transparent;color:#101318;font-size:13px;font-weight:600;white-space:nowrap;cursor:pointer}.filter.active{background:#263961;color:#fff}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:15px}.stat-card{min-height:106px;padding:17px 19px;display:flex;align-items:center;gap:16px;background:rgba(250,252,255,.83);border:1px solid #cfdbed;border-radius:21px}.stat-icon{width:48px;height:48px;flex:none;border-radius:15px;display:grid;place-items:center;background:#f0f4fc;color:#31577f}.stat-icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}.low-icon{background:#fff2d4;color:#c58d17}.out-icon{background:#fde9e7;color:#b52c34}.stat-card p{margin:0 0 2px;color:#9badcf;font-size:14px}.stat-card strong{display:block;color:#07090d;font-size:32px;line-height:1.02;font-weight:700;letter-spacing:-.5px}.stat-card .muted-number{color:#555}.stat-card small{display:block;margin-top:5px;font-size:12px;font-weight:600}.positive{color:#31577f}.warning-text{color:#bd8b19}.danger-text{color:#b52f36}.content-grid{display:grid;grid-template-columns:minmax(0,2.1fr) minmax(260px,1fr);gap:15px;margin-top:25px;align-items:stretch}.panel{border:1px solid #cfdbed;border-radius:19px;background:rgba(250,252,255,.82);padding:17px 19px;min-width:0}.products-panel{min-height:518px}.panel h2{margin:0 0 13px;font-size:16px;letter-spacing:-.2px}.table-wrap{width:100%;overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:640px}thead th{height:25px;padding:0 8px;text-align:left;text-transform:uppercase;color:#596982;font-size:10px;font-weight:700;white-space:nowrap}thead th:first-child,tbody td:first-child{padding-left:8px}tbody tr{border-top:1px solid #dce3ee}tbody td{height:53px;padding:0 8px;color:#34496f;font-size:13px;white-space:nowrap}tbody td:first-child{font-weight:700;color:#2b406c}.status{display:inline-block;min-width:65px;padding:4px 9px;text-align:center;border-radius:20px;font-size:11px;line-height:1;font-weight:600}.status.low{color:#bb891b;background:#fff1ce}.status.critical,.status.out{color:#b52d34;background:#fde8e5}.status.stock{color:#239b72;background:#dff4eb}.edit-button{height:32px;padding:0 14px;border:1px solid #d3deef;border-radius:12px;background:#fff;color:#101318;font-size:12px;font-weight:600;cursor:pointer}.category-panel{background:rgba(250,252,255,.87);border-color:#fff;padding:19px 19px}.category-panel h2{margin-bottom:12px}.category-list{display:flex;flex-direction:column;gap:15px}.category-row>div:first-child{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px;color:#34496f;font-size:13px}.progress{height:8px;border-radius:9px;background:#dfe4ec;overflow:hidden}.progress span{display:block;height:100%;border-radius:inherit;background:#263961}.empty-state{padding:24px;text-align:center;color:#77859d;font-size:13px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}dialog{width:min(460px,calc(100% - 32px));padding:0;border:1px solid #d5dfef;border-radius:18px;background:#fbfcff;color:#15223b;box-shadow:0 24px 80px #16264840}dialog::backdrop{background:#15243b70;backdrop-filter:blur(3px)}#productForm{padding:24px}.dialog-head{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:20px}.dialog-head h2{margin:3px 0 0;font-size:23px}.eyebrow{margin:0;color:#7386aa;font-size:12px}.close-button{border:0;background:transparent;color:#71809a;font-size:28px;line-height:1;cursor:pointer}#productForm>label,.form-row label{display:flex;flex:1;flex-direction:column;gap:7px;margin-bottom:14px;color:#33496e;font-size:12px;font-weight:600}#productForm input{width:100%;height:40px;padding:0 11px;border:1px solid #d7e0ed;border-radius:9px;background:#fff;outline:none;color:#15223b;font-size:13px}#productForm input:focus{border-color:#6b87c5;box-shadow:0 0 0 3px #6b87c526}.form-row{display:flex;gap:12px}.dialog-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:8px}.secondary-button{height:36px;padding:0 16px;border:1px solid #d6deec;border-radius:8px;background:#fff;color:#34496f;font-weight:600;cursor:pointer}.dialog-actions .primary-button{font-size:12px}
+@media(min-width:1600px){.main-content{margin-left:187px;padding:16px 25px 24px 25px}.topbar{min-height:69px}.heading h1{font-size:30px}.search{width:275px}.stats{gap:22px;margin-top:16px}.stat-card{min-height:106px}.content-grid{margin-top:26px;grid-template-columns:minmax(0,2.1fr) minmax(300px,1fr);gap:15px}.products-panel{min-height:calc(100vh - 345px)}tbody td{height:53px}}
+
+/* Match the compact product and SKU spacing shown in the reference. */
+@media(max-width:760px){
+  .products-panel{padding:20px}
+  .products-panel h2{margin-bottom:14px;font-size:20px}
+  .products-panel table{min-width:640px}
+  .products-panel thead th{height:35px;padding:0 10px;font-size:14px}
+  .products-panel tbody tr{height:66px}
+  .products-panel tbody td{height:66px;padding:0 10px;font-size:17px}
+  .products-panel thead th:first-child,.products-panel tbody td:first-child{padding-left:10px}
+  .products-panel th:first-child,.products-panel td:first-child{width:207px}
+}
+
+/* Keep desktop columns aligned to the reference proportions without resizing the page. */
+@media(min-width:761px){
+  .products-panel table{width:100%;min-width:640px;table-layout:fixed}
+  .products-panel th:nth-child(1),.products-panel td:nth-child(1){width:15.5%}
+  .products-panel th:nth-child(2),.products-panel td:nth-child(2){width:12.5%}
+  .products-panel th:nth-child(3),.products-panel td:nth-child(3){width:14%}
+  .products-panel th:nth-child(4),.products-panel td:nth-child(4){width:10.5%}
+  .products-panel th:nth-child(5),.products-panel td:nth-child(5){width:11%}
+  .products-panel th:nth-child(6),.products-panel td:nth-child(6){width:8.5%}
+  .products-panel th:nth-child(7),.products-panel td:nth-child(7){width:14%}
+  .products-panel th:nth-child(8),.products-panel td:nth-child(8){width:14%}
+  .products-panel thead th,.products-panel tbody td{padding-right:12px;padding-left:12px}
+  .products-panel thead th:first-child,.products-panel tbody td:first-child{padding-left:12px}
+  .products-panel th:nth-child(5),.products-panel th:nth-child(6),.products-panel th:nth-child(7),.products-panel th:nth-child(8),
+  .products-panel td:nth-child(5),.products-panel td:nth-child(6),.products-panel td:nth-child(7),.products-panel td:nth-child(8){text-align:center}
+}
+
+@media(min-width:761px){
+  .products-panel thead th{font-size:12px}
+}
+
+.products-panel .edit-button{height:35px;padding:0 17px;font-size:13px}
+
+/* Match the supplied Add Product button reference. */
+#addProduct{width:119px;height:35px;padding:0;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:12px;flex:none;flex-grow:0;border-radius:8px;background:#24355f;color:#fff;font-size:14px;font-weight:600;line-height:1;}
+
+.products-panel .status.low{width:65px;height:19px;min-width:65px;padding:3px 10px;display:inline-flex;align-items:center;justify-content:center;border-radius:20px;opacity:1;white-space:nowrap}
+
+/* Match the supplied 187 by 72 sidebar profile SVG. */
+@media(min-width:761px){
+  .account{height:72px;padding:0 21px 0 10px;gap:10px;background:#1d2f4b;border-top-color:rgba(160,180,214,.5)}
+  .account .avatar{width:36px;height:36px;min-width:36px;display:grid;place-items:center;flex:none;border-radius:50%;background:#526cb9;color:#fff;font-size:16px;font-weight:700;line-height:1}
+  .account-copy{flex:0 1 72px;gap:0}
+  .account-copy strong{max-width:72px;font-size:16px;line-height:1.2}
+  .account-copy small{font-size:14px;line-height:1.2}
+  .account .people{position:relative;width:28px;height:28px;flex:none;margin:0;display:grid;place-items:center;border-radius:8px;background:#20304a;color:#fff;font-size:0}
+  .account .people svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+  .account .people i{position:absolute;width:14px;height:14px;right:-5px;top:-5px;border-radius:50%;background:#45b189;color:#fff;text-align:center;font-size:10px;font-style:normal;line-height:14px}
+}
+
+/* Render the supplied Figma vector directly at its native size in both languages. */
+.account-profile{display:none}
+@media(min-width:761px){
+  .account{height:72px;padding:0;border-top:0;gap:0}
+  .account-profile{display:block;width:187px;height:72px;flex:none;object-fit:contain}
+  .account>.avatar,.account>.account-copy,.account>.people{display:none}
+}
+
+/* Keep the sidebar on the right in Arabic while preserving the profile identity. */
+html[dir="rtl"] .sidebar{left:auto;right:0}
+html[dir="rtl"] .main-content{margin-left:0;margin-right:187px}
+html[dir="rtl"] .account,html[dir="rtl"] .account-copy{direction:ltr}
+html[dir="rtl"] .products-panel thead th{text-align:right}
+html[dir="rtl"] .products-panel thead th:first-child,html[dir="rtl"] .products-panel tbody td:first-child{padding-right:12px;padding-left:12px}
+
+/* Arabic account details use live text so the name and initials are translated. */
+html[lang="ar"] .account{direction:rtl;gap:8px;border-top:1px solid rgba(160,180,214,.5)}
+html[lang="ar"] .account-profile{display:none}
+html[lang="ar"] .account>.avatar,html[lang="ar"] .account>.account-copy,html[lang="ar"] .account>.people{display:flex}
+html[lang="ar"] .account>.avatar{display:grid}
+html[lang="ar"] .account-copy{direction:rtl;text-align:right;flex:1;min-width:0}
+html[lang="ar"] .account-copy strong{max-width:none}
+html[lang="ar"] .account>.people{margin-left:0}
+@media(min-width:761px){html[lang="ar"] .account{width:187px;min-width:187px;padding:0 10px;overflow:visible}}
+
+@media(max-width:760px){
+  html[dir="rtl"] .sidebar{left:auto;right:0}
+  html[dir="rtl"] .main-content{margin-left:0;margin-right:64px}
+}
+
+@media(min-width:761px){
+  .heading h1{font-size:32px;line-height:1.1;letter-spacing:-1px}
+  .heading p{margin-top:4px;font-size:16px}
+}
+
+/* Give the alerts dialog a more comfortable desktop reading size. */
+.notifications-dialog{width:min(600px,calc(100% - 32px));border-radius:22px}
+.notification-content{padding:14px}
+.notification-content .dialog-head{margin-bottom:12px}
+.notification-content .dialog-head h2{font-size:26px}
+.notification-content>p{margin:0 0 10px;padding:0;border:0;background:transparent;font-size:18px;line-height:1.4}
+.notification-content> .primary-button{height:46px;padding:0 22px;font-size:16px}
+
+.notification-brand{display:block;margin:0 0 6px;padding:0;background:transparent;font-size:0;line-height:9px}.notification-wordmark{position:relative;display:block;width:101px;height:9px;overflow:hidden}.notification-wordmark img{position:absolute;left:-24px;top:-26px;width:150px;height:38px;max-width:none}
+
+/* Give notifications the sidebar palette. */
+.notifications-dialog{background:#1d2f4b;border-color:rgba(160,180,214,.5);color:#9ba9ce}
+.notifications-dialog .dialog-head h2{color:#fff}
+.notifications-dialog .close-button{color:#9ba9ce}
+.notifications-dialog .notification-content>p{color:#9ba9ce}
+.notifications-dialog #viewLowStock{background:#2b3e5e;color:#fff}
+
+@media(min-width:761px){.account.expanded{height:72px;gap:10px;padding:0 10px}.account.expanded .account-profile{display:none}.account.expanded>.avatar,.account.expanded>.account-copy,.account.expanded>.people{display:flex}.account.expanded>.avatar{display:grid}.account.expanded .account-copy{flex:1;min-width:0}.account.expanded .account-copy strong{max-width:none;overflow:visible;text-overflow:clip}.account-profile[role=button]{cursor:pointer}.account-profile:focus-visible{outline:2px solid #fff;outline-offset:-3px}}
+
+@media(min-width:761px){.account{cursor:pointer}.account.expanded{cursor:pointer}}
+
+@media(min-width:761px){.account.expanded .account-copy strong{font-family:Inter,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.2;letter-spacing:-.35px;color:#f3f5fb}.account.expanded .account-copy small{font-family:Inter,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.2;color:#9cabc5}}
+
+@media(min-width:761px){.account.expanded .account-copy strong{font-size:14px;font-weight:500;letter-spacing:0}.account.expanded .account-copy small{font-size:12px}}
+
+@media(min-width:761px){.account.expanded .account-copy strong{font-size:13px}.account.expanded .account-copy small{font-size:11px}}
+
+@media(min-width:761px){.account.expanded .avatar{font-size:12px;font-weight:700;line-height:1}}
+
+@media(min-width:761px){.account.expanded .avatar{font-size:11px}}
+
+@media(min-width:761px){.account.expanded .avatar{font-family:Inter,Arial,sans-serif;font-size:12px;font-weight:600;line-height:1}}
+
+@media(min-width:761px){.account.expanded .avatar{font-weight:500}}
+
+@media(min-width:761px){.account.expanded>.people{display:grid;place-items:center;width:28px;height:28px;flex:none;margin:0;border-radius:8px;background:#20304a;color:#fff}.account.expanded>.people svg{width:22px;height:22px;stroke-width:1.3}.account.expanded>.people i{width:14px;height:14px;right:-5px;top:-5px;background:#45b189;font-size:10px;line-height:14px}}
+
+@media(min-width:761px){.account.expanded{width:187px;min-width:187px;padding:0 10px;gap:8px;overflow:visible}.account.expanded>.avatar{width:36px;min-width:36px;flex:0 0 36px}.account.expanded>.account-copy{flex:1 1 0;width:0;min-width:0}.account.expanded .account-copy strong{display:block;max-width:none;white-space:nowrap;overflow:visible}.account.expanded>.people{width:28px;min-width:28px;flex:0 0 28px;margin-left:0}.account.expanded>.people i{right:-4px;top:-4px}}
+
+
+
+@media(min-width:761px){.account.expanded>.people{position:relative;top:auto;right:auto}}
+
+@media(min-width:761px){.account.expanded{height:72px;padding:0;gap:0;overflow:visible}.account.expanded .account-profile{display:block;width:187px;height:72px;flex:none;object-fit:contain}.account.expanded>.avatar,.account.expanded>.account-copy,.account.expanded>.people{display:none}.account-profile[role=button]{cursor:pointer}}
+
+@font-face { font-family: "Arimo"; src: url("./arimo.woff") format("woff"); font-style: normal; font-weight: 400 700; font-display: swap; }
+
+/* Active users menu: matches Generate barcode labels. */
+.account { position: relative; }
+.account .people {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  margin-left: auto;
+  padding: 0;
+  place-items: center;
+  position: relative;
+  border: 0;
+  border-radius: 8px;
+  background: #20304a;
+  color: #fff;
+  cursor: pointer;
+}
+.account .people svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.account .people i { position: absolute; right: -5px; top: -5px; width: 14px; height: 14px; border: 1px solid #1d2f4b; border-radius: 50%; background: #45b189; color: #fff; text-align: center; font-size: 10px; font-style: normal; line-height: 12px; }
+@media (min-width: 761px) {
+  .account > .people {
+    display: grid !important;
+    position: absolute;
+    z-index: 5;
+    top: 22px;
+    left: 138px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    background: transparent !important;
+    color: transparent;
+  }
+  .account > .people svg, .account > .people i { visibility: hidden; }
+  .account > .people:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+}
+/* Active users popup copied from the Generate barcode labels page. */
+.users-popup[hidden] { display: none !important; }
+.users-popup { position: absolute; z-index: 1000; display: flex; width: 270px; height: 343px; max-height: min(343px, calc(100svh - 16px)); flex-direction: column; overflow: hidden; border: 1px solid #d0dcef; border-radius: 10px; background: #fff; color: #111; box-shadow: 0 12px 32px rgba(31,48,82,.2); font-family: "Arimo",sans-serif; }
+.users-popup::after { position: absolute; bottom: -5px; left: var(--users-arrow-left, 127px); width: 8px; height: 8px; transform: rotate(45deg); border-right: 1px solid #d0dcef; border-bottom: 1px solid #d0dcef; background: #f8faff; content: ""; }
+.users-popup-header { display: flex; flex: 0 0 52.5px; height: 52.5px; align-items: center; justify-content: space-between; padding: 4px 16px 0; border-bottom: 1px solid #e6e6e8; }
+.users-popup-header > div, .active-identity { display: flex; min-width: 0; flex-direction: column; gap: 2px; }
+.users-popup-header strong { font-size: 13px; line-height: 14px; }
+.users-popup-header > div > span { color: #4565a2; font-size: 9.5px; line-height: 11px; }
+.online-count { display: flex; height: 19px; align-items: center; gap: 5px; padding: 0 9px; border-radius: 12px; background: #e0f3ea; color: #28956c; font-size: 9.5px; white-space: nowrap; }
+.online-count b { display: inline-flex; gap: 3px; font-weight: 700; }
+.online-count i, .active-avatar i { display: block; width: 6px; height: 6px; border-radius: 50%; background: #38a879; }
+.active-users-list { min-height: 0; flex: 1 1 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none !important; }
+.active-users-list::-webkit-scrollbar, .active-users-list::-webkit-scrollbar-track, .active-users-list::-webkit-scrollbar-thumb { display: none !important; width: 0 !important; height: 0 !important; }
+.active-user { display: flex; flex: 0 0 50px; height: 50px; align-items: center; gap: 10px; padding: 0 16px; border-bottom: 1px solid #e6e6e8; }
+.active-avatar { position: relative; display: flex; flex: 0 0 31px; width: 31px; height: 31px; align-items: center; justify-content: center; border-radius: 50%; font-size: 9.5px; font-weight: 700; }
+.active-avatar i { position: absolute; right: -1px; bottom: -1px; width: 9px; height: 9px; border: 2px solid #fff; }
+.active-avatar i.presence-away { background: #b7c0d0; }
+.tone-blue { background: #e4e8fa; color: #223255; }
+.tone-green { background: #e0f3ea; color: #287c60; }
+.tone-gold { background: #fcf3d6; color: #a77b27; }
+.tone-purple { background: #eee6f9; color: #6241a2; }
+.tone-red { background: #fbe7e8; color: #ad4548; }
+.tone-manager { background: #526cb9; color: #fff; }
+.active-identity { min-width: 0; flex: 1; overflow: hidden; gap: 2px; }
+.active-identity b, .active-identity small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.active-identity b { color: #111; font-size: 11.3px; line-height: 13px; }
+.active-identity small { color: #4565a2; font-size: 9.5px; line-height: 11px; }
+.role-chip { flex: 0 0 auto; padding: 3px 8px; border-radius: 12px; background: #eef2fb; color: #21446b; font-size: 9.5px; font-weight: 700; }
+.role-merchant { background: #fff6e8; color: #bd8c25; }
+.users-custom-scrollbar[hidden] { display: none !important; }
+.users-custom-scrollbar { position: absolute; z-index: 3; top: 53px; right: 2px; bottom: 53px; width: 7px; background: transparent; cursor: pointer; touch-action: none; }
+.users-custom-scrollbar-thumb, .users-custom-scrollbar-thumb:hover, .users-custom-scrollbar-thumb:active { position: absolute; top: 0; right: 2px; display: block; width: 3px; min-height: 22px; border: 0; border-radius: 3px; background: #eef2fb !important; box-shadow: none !important; filter: none !important; opacity: 1 !important; transition: none !important; forced-color-adjust: none; cursor: grab; }
+.users-custom-scrollbar-thumb:active { cursor: grabbing; }
+.users-popup-account { display: flex; flex: 0 0 52.5px; height: 52.5px; align-items: center; gap: 10px; padding: 0 16px; background: #f8faff; }
+.users-popup-account .active-identity b { color: #111b32; }
+.users-popup-account .active-identity small { color: #9ba9ce; }
+.signout-button { display: grid; flex: 0 0 33px; width: 33px; height: 33px; place-items: center; border: 1px solid #e2e6ed; border-radius: 12px; background: #fff; color: #9aadd4; }
+.signout-button:hover { background: #fff; }
+.signout-button svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 760px) { .users-popup { width: min(270px, calc(100vw - 24px)); height: min(343px, calc(100svh - 16px)); } }
+
+/* Let the sidebar participate in page layout so it scrolls with the content. */
+body { display: flex; align-items: stretch; }
+.sidebar {
+  position: relative;
+  inset: auto;
+  flex: 0 0 187px;
+  width: 187px;
+  height: auto;
+  min-height: 100vh;
+  align-self: stretch;
+}
+.main-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-left: 0;
+}
+html[dir="rtl"] .sidebar { left: auto; right: auto; }
+html[dir="rtl"] .main-content { margin-left: 0; margin-right: 0; }
+
+/* In Arabic the profile artwork is hidden, so show the live account controls instead. */
+@media (min-width: 761px) {
+  html[lang="ar"] .account > .avatar { display: grid !important; }
+  html[lang="ar"] .account > .account-copy { display: flex !important; flex: 1 1 auto; min-width: 0; }
+  html[lang="ar"] .account > .people {
+    display: grid !important;
+    position: relative;
+    inset: auto;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
+    margin: 0;
+    background: #20304a !important;
+    color: #fff;
+  }
+  html[lang="ar"] .account > .people svg,
+  html[lang="ar"] .account > .people i { visibility: visible; }
+}
